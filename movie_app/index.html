@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Movie Search Application</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- font awesome cdn icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!-- logo -->
+        <div class="logo">
+            <div class="container">
+                <p>Movie<span>Corner</span></p>
+            </div>
+        </div>
+        <!-- end of logo -->
+
+        <!-- search container -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie:</h3>
+                <input type="text" id="movie-search-box" class="form-control" placeholder="search movie title here.." onkeyup="findMovies()">
+
+                <div class="search-list" id="search-list">
+                    <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="medium-cover.jpg" alt="movie search cover">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Guardians of the Galaxy Vol. 2</h3>
+                            <p>2017</p>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+        <!-- end of search container -->
+        <!-- result container -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- movie info here -->
+                    <!-- <div class="movie-poster">
+                        <img src="medium-cover.jpg" alt="movie poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Guardians of the Galaxy Vol. 2</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">YEAR: 2017</li>
+                            <li class="rated">Ratings: PG-13</li>
+                            <li class="released">Released: 05 May 2017</li>
+                        </ul>
+                        <p class="genre"> <b>Genre:</b> Action, Adventure, Comedy</p>
+                        <p class="writer"><b>Writer:</b>Jmaes Gunn, Don Abnett,Andy Lanning</p>
+                        <p class="actors"><b>Actors:</b>Chris Pratt, Zoe Saldana, Dave Baustista</p>
+                        <p class="plot"><b>Plot:</b> fakenvdhfvhsnkdhnvh  dnfhdskd hbvisdhvn ksdb bvubsuhfdn kdbishifuhnvjdhf kjhfvuishduvgdyfn jhfuidhfiuhgd jfhiduhnvhjsdhiugbd hfdb</p>
+                        <p class="language"><b>Language:</b> English</p>
+                        <p class="awards"><b><i class="fas fa-award"></i></b> Nominated for 1 Oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of result container -->
+    </div>
+
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-12 d-flex align-items-center">
+            <span class="text-muted">&copy; 2023, This application is for practice purposes only and does not represent an actual business or service.</span>
+          </div>
+        </footer>
+    </div> 
+
+    <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+    
+    <!-- javascript source -->
+    <script src="script.js"></script>
+</body>
+</html>
+
